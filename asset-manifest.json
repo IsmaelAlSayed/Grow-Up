@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c7065cd.css",
-    "main.js": "/static/js/main.e476406e.js",
+    "main.css": "/static/css/main.25de23a2.css",
+    "main.js": "/static/js/main.b98e1014.js",
     "static/js/787.1448dbd7.chunk.js": "/static/js/787.1448dbd7.chunk.js",
+    "static/media/SaraCafe.mp4": "/static/media/SaraCafe.5ac09c8cb48a32e835b3.mp4",
+    "static/media/Celvana2.mp4": "/static/media/Celvana2.fdb3862afbcdae8dd464.mp4",
     "static/media/growupintro2.mov": "/static/media/growupintro2.a6fd64b6286e0cea1e81.mov",
+    "static/media/Celvana1.mp4": "/static/media/Celvana1.2277b67717e0649bd76e.mp4",
+    "static/media/SaraCafe.png": "/static/media/SaraCafe.96c2c8758c6e8edd0b22.png",
+    "static/media/Celvana2.png": "/static/media/Celvana2.216d4ad5acdb410195bd.png",
+    "static/media/Celvana1.png": "/static/media/Celvana1.3aa8582b6e1a940c10e8.png",
     "static/media/growup4.png": "/static/media/growup4.51333c8cf1163c5a792e.png",
     "static/media/growup2.png": "/static/media/growup2.bf2cdabc3729cd6654ed.png",
     "static/media/growup.png": "/static/media/growup.ad212485c18761f191b8.png",
     "index.html": "/index.html",
-    "main.2c7065cd.css.map": "/static/css/main.2c7065cd.css.map",
-    "main.e476406e.js.map": "/static/js/main.e476406e.js.map",
+    "main.25de23a2.css.map": "/static/css/main.25de23a2.css.map",
+    "main.b98e1014.js.map": "/static/js/main.b98e1014.js.map",
     "787.1448dbd7.chunk.js.map": "/static/js/787.1448dbd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7065cd.css",
-    "static/js/main.e476406e.js"
+    "static/css/main.25de23a2.css",
+    "static/js/main.b98e1014.js"
   ]
 }
