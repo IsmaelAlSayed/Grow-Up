@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d17594e.css",
-    "main.js": "/static/js/main.f65e8989.js",
+    "main.css": "/static/css/main.10e32ef7.css",
+    "main.js": "/static/js/main.b81d66a8.js",
     "static/js/787.1448dbd7.chunk.js": "/static/js/787.1448dbd7.chunk.js",
+    "static/media/Animation.mp4": "/static/media/Animation.c168d3f73e0d7206088f.mp4",
     "static/media/Celvana2.mp4": "/static/media/Celvana2.6137aa38f844cca433c9.mp4",
     "static/media/growupintro2.mov": "/static/media/growupintro2.a6fd64b6286e0cea1e81.mov",
     "static/media/Celvana1.mp4": "/static/media/Celvana1.2277b67717e0649bd76e.mp4",
@@ -14,12 +15,12 @@
     "static/media/growup.png": "/static/media/growup.ad212485c18761f191b8.png",
     "static/media/ppc.png": "/static/media/ppc.8a1d8b084aaa03274c8b.png",
     "index.html": "/index.html",
-    "main.9d17594e.css.map": "/static/css/main.9d17594e.css.map",
-    "main.f65e8989.js.map": "/static/js/main.f65e8989.js.map",
+    "main.10e32ef7.css.map": "/static/css/main.10e32ef7.css.map",
+    "main.b81d66a8.js.map": "/static/js/main.b81d66a8.js.map",
     "787.1448dbd7.chunk.js.map": "/static/js/787.1448dbd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d17594e.css",
-    "static/js/main.f65e8989.js"
+    "static/css/main.10e32ef7.css",
+    "static/js/main.b81d66a8.js"
   ]
 }
