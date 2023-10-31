@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.10e32ef7.css",
-    "main.js": "/static/js/main.aa0972a8.js",
+    "main.css": "/static/css/main.fa5c135d.css",
+    "main.js": "/static/js/main.353d6d1b.js",
     "static/js/787.1448dbd7.chunk.js": "/static/js/787.1448dbd7.chunk.js",
     "static/media/Animation.mp4": "/static/media/Animation.c168d3f73e0d7206088f.mp4",
     "static/media/Celvana2.mp4": "/static/media/Celvana2.6137aa38f844cca433c9.mp4",
@@ -13,14 +13,21 @@
     "static/media/Celvana2.png": "/static/media/Celvana2.83af31fe2b4f01336d22.png",
     "static/media/growup2.png": "/static/media/growup2.bf2cdabc3729cd6654ed.png",
     "static/media/growup.png": "/static/media/growup.ad212485c18761f191b8.png",
-    "static/media/ppc.png": "/static/media/ppc.8a1d8b084aaa03274c8b.png",
+    "static/media/crm.svg": "/static/media/crm.f64aedb4cf90a4c98300378cf48818d8.svg",
+    "static/media/brand.svg": "/static/media/brand.3c87f63b374d955183ebdb8aaaad00c8.svg",
+    "static/media/market.svg": "/static/media/market.923fc96b79a823812600ae00b0b9eabe.svg",
+    "static/media/filming.svg": "/static/media/filming.a27939c388dd533204ba41ecbc1764e9.svg",
+    "static/media/ppc.svg": "/static/media/ppc.0d11bae90c08edaaea5160253f81d6b7.svg",
+    "static/media/social.svg": "/static/media/social.1fb376e8290dc9468935ad1e89660958.svg",
+    "static/media/seo.svg": "/static/media/seo.417f02ab718dd8de7d84ddaa441709d1.svg",
+    "static/media/web.svg": "/static/media/web.3c84b107c09f6d65c149d96eb5ebcc8d.svg",
     "index.html": "/index.html",
-    "main.10e32ef7.css.map": "/static/css/main.10e32ef7.css.map",
-    "main.aa0972a8.js.map": "/static/js/main.aa0972a8.js.map",
+    "main.fa5c135d.css.map": "/static/css/main.fa5c135d.css.map",
+    "main.353d6d1b.js.map": "/static/js/main.353d6d1b.js.map",
     "787.1448dbd7.chunk.js.map": "/static/js/787.1448dbd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e32ef7.css",
-    "static/js/main.aa0972a8.js"
+    "static/css/main.fa5c135d.css",
+    "static/js/main.353d6d1b.js"
   ]
 }
