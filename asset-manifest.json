@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.19a5f640.css",
+    "main.css": "/static/css/main.92a024a3.css",
     "main.js": "/static/js/main.16897473.js",
     "static/js/787.28a40855.chunk.js": "/static/js/787.28a40855.chunk.js",
     "static/media/Celvana2.mp4": "/static/media/Celvana2.6137aa38f844cca433c9.mp4",
@@ -24,12 +24,12 @@
     "static/media/web.svg": "/static/media/web.3c84b107c09f6d65c149d96eb5ebcc8d.svg",
     "static/media/navbar-icon.svg": "/static/media/navbar-icon.4c5ae7db7f3a3eb1ed83b169741996e0.svg",
     "index.html": "/index.html",
-    "main.19a5f640.css.map": "/static/css/main.19a5f640.css.map",
+    "main.92a024a3.css.map": "/static/css/main.92a024a3.css.map",
     "main.16897473.js.map": "/static/js/main.16897473.js.map",
     "787.28a40855.chunk.js.map": "/static/js/787.28a40855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19a5f640.css",
+    "static/css/main.92a024a3.css",
     "static/js/main.16897473.js"
   ]
 }
