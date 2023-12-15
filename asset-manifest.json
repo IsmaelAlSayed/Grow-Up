@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.92a024a3.css",
-    "main.js": "/static/js/main.ce258ddf.js",
+    "main.css": "/static/css/main.c4944754.css",
+    "main.js": "/static/js/main.d228e89b.js",
     "static/js/787.28a40855.chunk.js": "/static/js/787.28a40855.chunk.js",
     "static/media/Celvana2.mp4": "/static/media/Celvana2.6137aa38f844cca433c9.mp4",
     "static/media/mission.mp4": "/static/media/mission.81e6ef072b5040110295.mp4",
-    "static/media/Animation.mp4": "/static/media/Animation.fea8967b7ec16036470e.mp4",
     "static/media/growupintro2.mov": "/static/media/growupintro2.a6fd64b6286e0cea1e81.mov",
     "static/media/Celvana1.mp4": "/static/media/Celvana1.2277b67717e0649bd76e.mp4",
     "static/media/SaraCafe.mp4": "/static/media/SaraCafe.0bf55b3f5f8cb812409a.mp4",
     "static/media/Celvana1.png": "/static/media/Celvana1.3aa8582b6e1a940c10e8.png",
     "static/media/SaraCafe.png": "/static/media/SaraCafe.7bf2dd4fb10a3c17b0b7.png",
     "static/media/Celvana2.png": "/static/media/Celvana2.83af31fe2b4f01336d22.png",
+    "static/media/growup2-2.png": "/static/media/growup2-2.36646edcc61a1ef4e31e.png",
     "static/media/growup2.png": "/static/media/growup2.bf2cdabc3729cd6654ed.png",
     "static/media/growup.png": "/static/media/growup.ad212485c18761f191b8.png",
     "static/media/crm.svg": "/static/media/crm.f64aedb4cf90a4c98300378cf48818d8.svg",
@@ -22,14 +22,14 @@
     "static/media/social.svg": "/static/media/social.1fb376e8290dc9468935ad1e89660958.svg",
     "static/media/seo.svg": "/static/media/seo.417f02ab718dd8de7d84ddaa441709d1.svg",
     "static/media/web.svg": "/static/media/web.3c84b107c09f6d65c149d96eb5ebcc8d.svg",
-    "static/media/navbar-icon.svg": "/static/media/navbar-icon.4c5ae7db7f3a3eb1ed83b169741996e0.svg",
     "index.html": "/index.html",
-    "main.92a024a3.css.map": "/static/css/main.92a024a3.css.map",
-    "main.ce258ddf.js.map": "/static/js/main.ce258ddf.js.map",
+    "static/media/menu.svg": "/static/media/menu.aa520e9873836cbb9d5e9942d2fc195b.svg",
+    "main.c4944754.css.map": "/static/css/main.c4944754.css.map",
+    "main.d228e89b.js.map": "/static/js/main.d228e89b.js.map",
     "787.28a40855.chunk.js.map": "/static/js/787.28a40855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a024a3.css",
-    "static/js/main.ce258ddf.js"
+    "static/css/main.c4944754.css",
+    "static/js/main.d228e89b.js"
   ]
 }
