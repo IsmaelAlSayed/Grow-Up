@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.5e7026cb.css",
-    "main.js": "/static/js/main.874cbd3b.js",
+    "main.js": "/static/js/main.48b5f36b.js",
     "static/js/787.28a40855.chunk.js": "/static/js/787.28a40855.chunk.js",
     "static/media/mission.mp4": "/static/media/mission.81e6ef072b5040110295.mp4",
     "static/media/growupintro2.mov": "/static/media/growupintro2.a6fd64b6286e0cea1e81.mov",
-    "static/media/lastoria.png": "/static/media/lastoria.92e4fc967c22e22e8f6e.png",
     "static/media/abed.png": "/static/media/abed.ca26ee0cbd83fb75982f.png",
     "static/media/Sara.png": "/static/media/Sara.6345685b153c2cca3e7a.png",
+    "static/media/lastoira.png": "/static/media/lastoira.f915f67befa3721e34a3.png",
     "static/media/growup2-2.png": "/static/media/growup2-2.36646edcc61a1ef4e31e.png",
     "static/media/growup2.png": "/static/media/growup2.bf2cdabc3729cd6654ed.png",
     "static/media/crm.svg": "/static/media/crm.f64aedb4cf90a4c98300378cf48818d8.svg",
@@ -21,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.aa520e9873836cbb9d5e9942d2fc195b.svg",
     "main.5e7026cb.css.map": "/static/css/main.5e7026cb.css.map",
-    "main.874cbd3b.js.map": "/static/js/main.874cbd3b.js.map",
+    "main.48b5f36b.js.map": "/static/js/main.48b5f36b.js.map",
     "787.28a40855.chunk.js.map": "/static/js/787.28a40855.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e7026cb.css",
-    "static/js/main.874cbd3b.js"
+    "static/js/main.48b5f36b.js"
   ]
 }
