@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c09d783.css",
-    "main.js": "/static/js/main.01a768a3.js",
+    "main.css": "/static/css/main.5e7026cb.css",
+    "main.js": "/static/js/main.874cbd3b.js",
     "static/js/787.28a40855.chunk.js": "/static/js/787.28a40855.chunk.js",
-    "static/media/Celvana2.mp4": "/static/media/Celvana2.6137aa38f844cca433c9.mp4",
     "static/media/mission.mp4": "/static/media/mission.81e6ef072b5040110295.mp4",
     "static/media/growupintro2.mov": "/static/media/growupintro2.a6fd64b6286e0cea1e81.mov",
-    "static/media/Celvana1.mp4": "/static/media/Celvana1.2277b67717e0649bd76e.mp4",
-    "static/media/SaraCafe.mp4": "/static/media/SaraCafe.0bf55b3f5f8cb812409a.mp4",
-    "static/media/Celvana1.png": "/static/media/Celvana1.3aa8582b6e1a940c10e8.png",
-    "static/media/SaraCafe.png": "/static/media/SaraCafe.7bf2dd4fb10a3c17b0b7.png",
-    "static/media/Celvana2.png": "/static/media/Celvana2.83af31fe2b4f01336d22.png",
+    "static/media/lastoria.png": "/static/media/lastoria.92e4fc967c22e22e8f6e.png",
+    "static/media/abed.png": "/static/media/abed.ca26ee0cbd83fb75982f.png",
+    "static/media/Sara.png": "/static/media/Sara.6345685b153c2cca3e7a.png",
     "static/media/growup2-2.png": "/static/media/growup2-2.36646edcc61a1ef4e31e.png",
     "static/media/growup2.png": "/static/media/growup2.bf2cdabc3729cd6654ed.png",
-    "static/media/growup.png": "/static/media/growup.ad212485c18761f191b8.png",
     "static/media/crm.svg": "/static/media/crm.f64aedb4cf90a4c98300378cf48818d8.svg",
     "static/media/brand.svg": "/static/media/brand.3c87f63b374d955183ebdb8aaaad00c8.svg",
     "static/media/market.svg": "/static/media/market.923fc96b79a823812600ae00b0b9eabe.svg",
@@ -24,12 +20,12 @@
     "static/media/web.svg": "/static/media/web.3c84b107c09f6d65c149d96eb5ebcc8d.svg",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.aa520e9873836cbb9d5e9942d2fc195b.svg",
-    "main.6c09d783.css.map": "/static/css/main.6c09d783.css.map",
-    "main.01a768a3.js.map": "/static/js/main.01a768a3.js.map",
+    "main.5e7026cb.css.map": "/static/css/main.5e7026cb.css.map",
+    "main.874cbd3b.js.map": "/static/js/main.874cbd3b.js.map",
     "787.28a40855.chunk.js.map": "/static/js/787.28a40855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c09d783.css",
-    "static/js/main.01a768a3.js"
+    "static/css/main.5e7026cb.css",
+    "static/js/main.874cbd3b.js"
   ]
 }
