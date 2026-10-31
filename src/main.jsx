@@ -7,6 +7,7 @@ import './styles/base.css'
 // and avoids the two pages' global styles clashing).
 const Home = lazy(() => import('./pages/Home.jsx'))
 const SocialMedia = lazy(() => import('./pages/SocialMedia.jsx'))
+const Contact = lazy(() => import('./pages/Contact.jsx'))
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/social-media" element={<SocialMedia />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

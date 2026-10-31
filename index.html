@@ -4,14 +4,70 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Grow Up — وكالة تسويق في الخليل، فلسطين. حملات تسويقية، إدارة محتوى، برمجة، تصميم، تصوير وإعلانات ممولة." />
+
+    <!-- Primary meta -->
+    <title>Grow Up — وكالة تسويق في الخليل، فلسطين</title>
+    <meta name="description" content="Grow Up وكالة تسويق فلسطينية من الخليل: حملات تسويقية، إدارة محتوى وسوشيال ميديا، برمجة وتطوير مواقع، تصميم جرافيك وهوية بصرية، تصوير وموشن جرافيك وإعلانات ممولة." />
+    <meta name="keywords" content="Grow Up, وكالة تسويق, تسويق الكتروني, الخليل, فلسطين, سوشيال ميديا, إعلانات ممولة, تصميم, برمجة مواقع, هوية بصرية" />
+    <meta name="author" content="Grow Up" />
     <meta name="theme-color" content="#12A9E6" />
-    <title>Grow Up — وكالة تسويق</title>
+    <link rel="canonical" href="https://growup-ps.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Grow Up" />
+    <meta property="og:locale" content="ar_AR" />
+    <meta property="og:title" content="Grow Up — وكالة تسويق في الخليل، فلسطين" />
+    <meta property="og:description" content="من الفكرة لحملة ناجحة: نبني علامتك، ندير محتواك، ونوصلك للجمهور الصح. ننمو ونحقق النجاح سوا." />
+    <meta property="og:url" content="https://growup-ps.com/" />
+    <meta property="og:image" content="https://growup-ps.com/og-image.png" />
+    <meta property="og:image:alt" content="Grow Up — We Do it Better" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Grow Up — وكالة تسويق في الخليل، فلسطين" />
+    <meta name="twitter:description" content="من الفكرة لحملة ناجحة: نبني علامتك، ندير محتواك، ونوصلك للجمهور الصح." />
+    <meta name="twitter:image" content="https://growup-ps.com/og-image.png" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MarketingAgency",
+      "name": "Grow Up",
+      "description": "وكالة تسويق فلسطينية من الخليل: حملات، محتوى، برمجة، تصميم، تصوير وإعلانات ممولة.",
+      "url": "https://growup-ps.com",
+      "logo": "https://growup-ps.com/og-image.png",
+      "image": "https://growup-ps.com/og-image.png",
+      "telephone": "+972592032315",
+      "email": "Info@growup-ps.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "الخليل",
+        "addressCountry": "PS"
+      },
+      "sameAs": [
+        "https://www.instagram.com/growup_agencyps/",
+        "https://www.facebook.com/growup.ps.agency/",
+        "https://www.linkedin.com/company/grow-up-technology/"
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Quicksand:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" />
   </head>
   <body>
+    <!-- Hidden form so Netlify's build-time bot detects it (the live form is rendered by React). -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="service" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
