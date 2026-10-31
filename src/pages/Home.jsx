@@ -14,6 +14,27 @@ export default function Home() {
     const root = ref.current
     if (!root) return
 
+    // mobile menu toggle
+    const toggle = root.querySelector('#navToggle')
+    const navLinks = root.querySelector('#navLinks')
+    const closeMenu = () => {
+      if (!navLinks) return
+      navLinks.classList.remove('open')
+      if (toggle) toggle.setAttribute('aria-expanded', 'false')
+    }
+    const onToggle = () => {
+      const open = navLinks.classList.toggle('open')
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false')
+    }
+    const onOutside = (e) => {
+      if (navLinks && navLinks.classList.contains('open') &&
+          !navLinks.contains(e.target) && !toggle.contains(e.target)) closeMenu()
+    }
+    if (toggle && navLinks) {
+      toggle.addEventListener('click', onToggle)
+      document.addEventListener('click', onOutside)
+    }
+
     // smooth scroll for in-page anchors
     const anchors = root.querySelectorAll('a[href^="#"]')
     const onAnchor = (e) => {
@@ -22,6 +43,7 @@ export default function Home() {
         const t = document.querySelector(id)
         if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }) }
       }
+      closeMenu()
     }
     anchors.forEach((a) => a.addEventListener('click', onAnchor))
 
@@ -50,6 +72,8 @@ export default function Home() {
     copyBtns.forEach((b) => b.addEventListener('click', onCopy))
 
     return () => {
+      if (toggle) toggle.removeEventListener('click', onToggle)
+      document.removeEventListener('click', onOutside)
       anchors.forEach((a) => a.removeEventListener('click', onAnchor))
       copyBtns.forEach((b) => b.removeEventListener('click', onCopy))
     }

@@ -30,11 +30,35 @@ export default function Contact() {
     const root = ref.current
     if (!root) return
 
+    // mobile menu toggle
+    const toggle = root.querySelector('#navToggle')
+    const navLinks = root.querySelector('#navLinks')
+    const onToggle = () => {
+      const open = navLinks.classList.toggle('open')
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false')
+    }
+    const onOutside = (e) => {
+      if (navLinks && navLinks.classList.contains('open') &&
+          !navLinks.contains(e.target) && !toggle.contains(e.target)) {
+        navLinks.classList.remove('open')
+        toggle.setAttribute('aria-expanded', 'false')
+      }
+    }
+    if (toggle && navLinks) {
+      toggle.addEventListener('click', onToggle)
+      document.addEventListener('click', onOutside)
+    }
+
     const form = root.querySelector('#contactForm')
     const status = root.querySelector('#ctStatus')
     const success = root.querySelector('#ctSuccess')
     const submitBtn = root.querySelector('.ct-submit')
-    if (!form) return
+    if (!form) {
+      return () => {
+        if (toggle) toggle.removeEventListener('click', onToggle)
+        document.removeEventListener('click', onOutside)
+      }
+    }
 
     const onSubmit = (e) => {
       e.preventDefault()
@@ -63,7 +87,11 @@ export default function Contact() {
     }
 
     form.addEventListener('submit', onSubmit)
-    return () => form.removeEventListener('submit', onSubmit)
+    return () => {
+      form.removeEventListener('submit', onSubmit)
+      if (toggle) toggle.removeEventListener('click', onToggle)
+      document.removeEventListener('click', onOutside)
+    }
   }, [])
 
   return <div ref={ref} dangerouslySetInnerHTML={{ __html: html }} />
