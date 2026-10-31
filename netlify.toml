@@ -1,3 +1,12 @@
 [build]
   command = "npm run build"
   publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback: every route serves the app so /social-media works on reload.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
