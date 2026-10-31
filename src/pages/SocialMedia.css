@@ -1,0 +1,58 @@
+/* Single branded look: diagonal blue -> white -> yellow, centered logo + social links */
+  :root{
+    --blue:#13A9E6;
+    --blue-deep:#0A7EB8;
+    --yellow:#FFD200;
+    --bar:rgba(31,46,56,.72);
+    --ink:#0B2A3A;
+    --f-logo:"Quicksand","Cairo",system-ui,sans-serif;
+    --f-display:"Cairo","Tajawal",system-ui,sans-serif;
+    --f-body:"Tajawal","Cairo",system-ui,sans-serif;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;font-family:var(--f-body);color:var(--ink);
+    background:linear-gradient(135deg,#0F9FE0 0%,#73C9EF 20%,#FFFFFF 50%,#FFE877 74%,#FFD200 100%);
+    background-attachment:fixed;
+  }
+  a{text-decoration:none;color:inherit}
+  img{max-width:100%}
+
+  /* top bar */
+  .bar{position:fixed;top:0;left:0;right:0;z-index:30;background:var(--bar);backdrop-filter:blur(8px);
+    display:flex;align-items:center;justify-content:space-between;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:31;background:#1f2e38}
+  .bar-in{display:flex;align-items:center;justify-content:space-between;width:100%;padding-block:16px}
+  .wordmark{font-family:var(--f-logo);font-weight:700;font-size:1.75rem;letter-spacing:-.01em}
+  .wordmark .g{color:var(--blue)}
+  .wordmark .u{color:var(--yellow)}
+  .menu-btn{background:none;border:none;cursor:pointer;padding:8px;display:grid;gap:5px}
+  .menu-btn span{display:block;width:30px;height:3px;border-radius:3px;background:var(--blue)}
+
+  .menu{position:fixed;top:0;right:0;z-index:29;background:var(--bar);backdrop-filter:blur(10px);
+    padding:calc(env(safe-area-inset-top,0px) + 74px) 30px 26px;border-bottom-left-radius:18px;
+    display:flex;flex-direction:column;gap:14px;transform:translateY(-120%);transition:transform .3s ease}
+  .menu.open{transform:translateY(0)}
+  .menu a{color:#EAF4FB;font-family:var(--f-display);font-weight:700;font-size:1.05rem}
+  .menu a:hover{color:var(--yellow)}
+
+  /* hero */
+  .page{direction:rtl;min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:calc(env(safe-area-inset-top,0px) + 110px) 20px calc(env(safe-area-inset-bottom,0px) + 50px)}
+  .logo{width:min(70vw,300px);height:auto;filter:drop-shadow(0 14px 30px rgba(10,60,100,.22))}
+  .tagline{font-family:var(--f-logo);font-weight:600;font-style:italic;color:var(--blue-deep);
+    font-size:clamp(1.3rem,5vw,1.9rem);margin-top:6px;letter-spacing:.01em}
+
+  .socials{display:grid;grid-template-columns:repeat(3,1fr);justify-items:center;align-items:center;
+    gap:clamp(22px,7vw,38px);margin:40px auto 0;max-width:300px}
+  .soc{width:clamp(54px,15vw,64px);height:clamp(54px,15vw,64px);display:grid;place-items:center;color:var(--blue);
+    transition:transform .18s ease,color .18s ease}
+  .soc:hover,.soc:focus-visible{transform:translateY(-4px) scale(1.06);color:var(--blue-deep)}
+  .soc svg{width:100%;height:100%;filter:drop-shadow(0 6px 12px rgba(10,60,100,.2))}
+
+  :focus-visible{outline:3px solid var(--blue-deep);outline-offset:4px;border-radius:10px}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
